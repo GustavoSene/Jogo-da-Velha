@@ -1,0 +1,72 @@
+
+body {
+
+   background-color: rgb(163, 29, 24);
+
+
+}
+
+
+h1 {
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+   text-align: center;
+
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(240, 214, 70);
+    display: inline-block;
+    border: 3px solid black;
+}
+
+.o {
+
+    position: relative;
+}
+
+.o:after {
+
+    content: "\2B55";
+    font-size: 50px;
+    line-height: 100px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.x{
+
+    position: relative;
+}
+
+.x:after {
+
+content: "\274C";
+font-size: 50px;
+line-height: 100px;
+position: absolute;
+top: 0;
+bottom: 0;
+right: 0;
+left: 0;
+
+
+}
+
+#restart {
+    position: absolute;
+    padding: 10px;
+    left: 860px;
+    top: 80px;
+    background-color:rgb(240, 214, 70);
+
+}
